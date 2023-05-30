@@ -86,7 +86,7 @@ const SliderCarousel = ({ characters }) => {
           {characters.map((card, index) => (
             <Row key={index}>
               <Col>
-                <Card onClick={() => openModal(card)} className='bg-transparent' style={{ width: '14rem', backgroundColor: 'transparent', border: '2px solid #3C3C41', backgroundImage: "url('https://png.pngtree.com/background/20230403/original/pngtree-futuristic-sci-fi-advanced-city-background-picture-image_2266997.jpg')" }}>
+                <Card onClick={() => openModal(card)} className='bg-transparent cursor-pointer' style={{ width: '14rem', backgroundColor: 'transparent', border: '2px solid #3C3C41', backgroundImage: "url('https://png.pngtree.com/background/20230403/original/pngtree-futuristic-sci-fi-advanced-city-background-picture-image_2266997.jpg')" }}>
                   <Card.Body style={{ textAlign: 'center', color: 'white' }}>
                     <Card.Title style={{ fontSize: '10px', color: '#F0E6D2' }}>{card.name}</Card.Title>
                     <div className='d-flex justify-content-center'>

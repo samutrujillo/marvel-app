@@ -15,9 +15,9 @@ const Homeview = () => {
   return (
     <>
       <Header/>
-      <Container fluid style={{backgroundImage: "url('https://png.pngtree.com/background/20230403/original/pngtree-futuristic-sci-fi-advanced-city-background-picture-image_2266997.jpg')"}}>
+      <Container fluid style={{height:'100vh',backgroundImage: "url('https://png.pngtree.com/background/20230403/original/pngtree-futuristic-sci-fi-advanced-city-background-picture-image_2266997.jpg')"}} >
         <MainContent/>
-      </Container>
+      </Container>  
 
     </>
   )
